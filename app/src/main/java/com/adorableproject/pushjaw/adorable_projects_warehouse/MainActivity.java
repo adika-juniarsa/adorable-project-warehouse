@@ -45,10 +45,11 @@ public class MainActivity extends AppCompatActivity {
                     }
                 });
 
+
         final Button buttonLogin = (Button) findViewById(R.id.loginBtn);
         buttonLogin.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
-                startActivity(new Intent(v.getContext(), HomeActivity.class));
+                startActivity(new Intent(v.getContext(), AmbilBarangActivity.class));
             }
         });
 
